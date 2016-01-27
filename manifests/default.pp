@@ -5,7 +5,6 @@ Exec {
 
 include bootstrap
 include tools
-include adminer
 include postgresql
 include python
 include import_db
