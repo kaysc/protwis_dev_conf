@@ -39,7 +39,14 @@ RedHat based systems (RedHat, CentOS, Fedora)
 
     sudo puppet apply --modulepath protwis_puppet_modules manifests/default.pp
 
-##### Start the built in Django development webserver
+#### Reload your shell
+
+Close you current shell and open a new one to reload environment variables.
+
+#### Start the Django development webserver
+
+This example runs the server on port 8000, but you can also use another port. If you want to access the server on a
+different machine, make sure the port you are using is open.
 
     cd /protwis/sites/protwis
     /env/bin/python3 manage.py runserver 0.0.0.0:8000
